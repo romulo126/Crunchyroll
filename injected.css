@@ -1,0 +1,95 @@
+.ontop {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-inner-pip {
+    width: 30px;
+}
+
+.btn-inner-speed {
+    width: 30px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.speed-menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 9999999;
+}
+
+.speed-menu .speed-option {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.speed-menu .speed-option:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.fake {
+    width: 0 !important;
+    height: 0 !important;
+    opacity: 0 !important;
+}
+
+
+/* CSS Atualizado */
+.toggle-container-skip {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    /* Adicione outras propriedades necessárias */
+  }
+  
+  .toggle-circle-skip {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    /* Adicione outras propriedades necessárias */
+  }
+  
+  .toggle-container-skip.active .toggle-circle-skip {
+    background-color: #4caf50;
+  }
+  
+  .toggle-label {
+    margin-left: 8px;
+    font-size: 14px;
+    /* Adicione outras propriedades necessárias */
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona o tooltip acima do elemento */
+    left: 50%;
+    margin-left: -80px; /* Centraliza o tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .toggle-container-skip:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
