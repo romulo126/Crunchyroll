@@ -1,2 +1,5 @@
-# ex_Crunchyroll
-Extensão para assistir Crunchyroll no modo Picture-in-Picture e modificar a velocidade do vídeo em até 3x. Permite abrir uma janela flutuante separada para você curtir seu conteúdo favorito e ajustar a velocidade do vídeo conforme sua preferência.
+# Crunchyroll: Video Booster
+Extensão que adiciona novas funcionalidades no video: Auto skip, aumentar a velocidade de reprodução e picture in picture.
+
+Instalar:
+https://chromewebstore.google.com/detail/crunchyroll-picture-and-s/ldimhcobdooedhjdbbilkgamgaibliob?authuser=1&hl=pt-BR
