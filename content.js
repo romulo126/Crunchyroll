@@ -210,7 +210,9 @@ function checkDivSkip() {
     const divPularAbertura = document.querySelector('div[data-testid="skipIntroText"]');
 
     if (divPularAbertura) {
-        divPularAbertura.click();
+        setTimeout(() => {    
+            divPularAbertura.click();
+        }, 1000);
     }
 }
 
